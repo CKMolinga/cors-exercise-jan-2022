@@ -22,7 +22,7 @@ export default {
         }
     },
      mounted() {
-            fetch('http://localhost:8080/api/students')
+            fetch('http://localhost:${PORT}/api/students')
             .then((res) => res.json())
             .then(data => this.students = data.students)
             .catch(err => console.log(err.message))
