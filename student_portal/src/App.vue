@@ -16,3 +16,14 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+h1 {
+  text-align: center;
+  padding: 25px 0;
+  color: #333;
+  font-weight: bold;
+  font-size: 3em;
+  cursor: pointer;
+}
+</style>
