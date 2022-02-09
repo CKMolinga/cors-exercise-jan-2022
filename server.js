@@ -4,10 +4,9 @@ const app = express()
 require('dotenv').config()
 PORT = process.env.PORT
 
-app.use(cors())
-
 const Database = {}
-const students = [{
+const students = [
+    {
         id: 1,
         name: "Melly Dury",
         age: 54,
